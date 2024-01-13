@@ -6,6 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/Menu/MenuLoader.unity
     guid: 6688ff74f56714cfeb7c919bcdbfe269
   - enabled: 1
@@ -170,6 +171,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Meta/MetaDisplayRefreshRate.unity
     guid: 07970a1a9455f4309b8e99b1c88daa98
+=======
+    path: Assets/Scenes/Interaction.unity
+    guid: ff9b6e62e970e432a9e8d51604b3bad8
+>>>>>>> Stashed changes
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: c52d3bb36b4c86f47af54ab9c7a02589,
       type: 2}
@@ -177,12 +182,21 @@ EditorBuildSettings:
       type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 98c79e8cc22674a89a95a3a90e2b70cb,
       type: 2}
+<<<<<<< Updated upstream
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 302e9f36808117f4184b07b05ca5bb47,
+=======
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d62d6f12a17a44b15b1578a16fb06237,
+>>>>>>> Stashed changes
       type: 2}
     com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: 2d5fb8e61571b4e3897f221189089fd6,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e2f869774b12e400996eb546603602e3,
       type: 2}
+<<<<<<< Updated upstream
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2d2dec64879445247bb34603b4469c6c,
       type: 2}
   m_UseUCBPForAssetBundles: 0
+=======
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ed037b47757904fef899d40a779b349f,
+      type: 2}
+>>>>>>> Stashed changes

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+<<<<<<< Updated upstream
     "com.unity.ide.rider": "3.0.26",
     "com.unity.ide.visualstudio": "2.0.22",
     "com.unity.inputsystem": "1.7.0",
@@ -12,6 +13,19 @@
     "com.unity.xr.arkit": "6.0.0-pre.5",
     "com.unity.xr.interaction.toolkit": "2.5.2",
     "com.unity.xr.openxr": "1.9.1",
+=======
+    "com.unity.ide.rider": "3.0.25",
+    "com.unity.ide.visualstudio": "2.0.21",
+    "com.unity.ide.vscode": "1.2.5",
+    "com.unity.inputsystem": "1.7.0",
+    "com.unity.render-pipelines.universal": "12.1.12",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.xr.arcore": "5.0.0-pre.8",
+    "com.unity.xr.arfoundation": "5.0.0-pre.8",
+    "com.unity.xr.arkit": "5.0.0-pre.8",
+    "com.unity.xr.interaction.toolkit": "2.5.1",
+    "com.unity.xr.openxr": "1.8.2",
+>>>>>>> Stashed changes
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",

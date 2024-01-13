@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: XRDeviceSimulatorSettings
   m_EditorClassIdentifier: 
   m_AutomaticallyInstantiateSimulatorPrefab: 0
+<<<<<<< Updated upstream
+=======
+  m_AutomaticallyInstantiateInEditorOnly: 1
+>>>>>>> Stashed changes
   m_SimulatorPrefab: {fileID: 0}

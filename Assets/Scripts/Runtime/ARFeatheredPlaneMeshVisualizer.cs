@@ -11,6 +11,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
     [RequireComponent(typeof(ARPlaneMeshVisualizer), typeof(MeshRenderer), typeof(ARPlane))]
     public class ARFeatheredPlaneMeshVisualizer : MonoBehaviour
     {
+        public GameObject objectToSpawn;
         [Tooltip("The width of the texture feathering (in world units).")]
         [SerializeField]
         float m_FeatheringWidth = 0.2f;
@@ -34,11 +35,14 @@ namespace UnityEngine.XR.ARFoundation.Samples
         void OnEnable()
         {
             m_Plane.boundaryChanged += ARPlane_boundaryUpdated;
+            objectToSpawn.SetActive(true);
         }
 
         void OnDisable()
         {
             m_Plane.boundaryChanged -= ARPlane_boundaryUpdated;
+            objectToSpawn.SetActive(false);
+
         }
 
         void ARPlane_boundaryUpdated(ARPlaneBoundaryChangedEventArgs eventArgs)
